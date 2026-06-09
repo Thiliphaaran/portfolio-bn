@@ -1,5 +1,10 @@
 import json
 import os
+from dotenv import load_dotenv
+import google.generativeai as genai
+
+# Load environment variables
+load_dotenv()
 
 def load_resume_data(filepath):
     """Loads JSON data from the specified filepath."""
@@ -43,10 +48,23 @@ def display_resume_highlights(data):
         print(f"Role: {latest_job['role']} at {latest_job['company']}")
         print(f"Key Task: {latest_job['responsibilities'][0]}")
 
+def initialize_gemini():
+    """Initialize Gemini API with the API key from environment variables."""
+    api_key = os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        print("Error: GEMINI_API_KEY not found in .env file")
+        return False
+    
+    genai.configure(api_key=api_key)
+    print("✓ Gemini API initialized successfully")
+    return True
+
 if __name__ == "__main__":
     # Define the path to your JSON file
     json_filepath = "resume.json"
     
-    # Load and process the data
-    resume_data = load_resume_data(json_filepath)
-    display_resume_highlights(resume_data)
+    # Initialize Gemini API
+    if initialize_gemini():
+        # Load and process the data
+        resume_data = load_resume_data(json_filepath)
+        display_resume_highlights(resume_data)
