@@ -1,0 +1,84 @@
+{
+  "personal_information": {
+    "name": "THILIPHAARAN KGM",
+    "location": "Coimbatore, Tamil Nadu",
+    "phone": "+91 9600211531",
+    "email": "smartthilip2004@gmail.com",
+    "linkedin": "LinkedIn"
+  },
+  "professional_summary": "Enthusiastic Cybersecurity and Application Security student with hands-on experience in Vulnerability Assessment & Penetration Testing (VAPT), Web Application Security Testing, API Security Testing, and Network Security. Proficient in identifying OWASP Top 10 vulnerabilities using Burp Suite, Wireshark, Nmap, Nessus, and OWASP ZAP. Strong foundation in SQL Injection testing, XSS testing, and security analysis with a passion for securing modern applications and continuously learning emerging cybersecurity technologies.",
+  "technical_skills": [
+    "Web Application Security Testing",
+    "Vulnerability Assessment & Penetration Testing (VAPT)",
+    "API Security Testing",
+    "SQL Injection & XSS Testing",
+    "Burp Suite",
+    "OWASP Top 10",
+    "OWASP ZAP",
+    "Wireshark",
+    "Nmap",
+    "Nessus",
+    "Metasploit",
+    "Python Basics",
+    "Linux Basics",
+    "Network Security Fundamentals"
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering in Computer Science Engineering (Cyber Security)",
+      "institution": "Dhanalakshmi Srinivasan College of Engineering",
+      "duration": "2022-2026",
+      "cgpa": "8.0"
+    },
+    {
+      "degree": "Higher Secondary Education",
+      "details": "Grade 10: 80% | Grade 12: 80%"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Penetration Testing Intern",
+      "company": "CodeSpade",
+      "responsibilities": [
+        "Conducted vulnerability assessments on web applications to identify security weaknesses and OWASP Top 10 vulnerabilities.",
+        "Collaborated with development teams to support remediation and improve application security posture.",
+        "Prepared technical documentation and security assessment reports with remediation recommendations."
+      ]
+    },
+    {
+      "role": "Cybersecurity Intern",
+      "company": "Novitech",
+      "responsibilities": [
+        "Assisted in monitoring application security issues and performing security analysis activities.",
+        "Supported implementation of security measures to strengthen system and application protection.",
+        "Participated in vulnerability assessment and reporting processes for internal security reviews."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Web Application Vulnerability Assessment",
+      "description": "Performed security testing on a sample web application and identified SQL Injection, XSS, and authentication vulnerabilities. Documented findings and provided remediation recommendations aligned with secure coding practices."
+    },
+    {
+      "name": "API Security Testing Using Postman & Burp Suite",
+      "description": "Tested REST APIs for authentication, authorization, and input validation vulnerabilities. Validated API security controls and generated detailed API security assessment reports."
+    },
+    {
+      "name": "Network Traffic Analysis with Wireshark",
+      "description": "Captured and analyzed network traffic to identify protocols, ARP traffic, and potential security risks. Prepared traffic analysis reports to support network monitoring and incident analysis."
+    }
+  ],
+  "certifications": [
+    "IBM Cybersecurity Fundamentals Certification",
+    "IBM Ethical Hacking & Network Security Certification",
+    "Oracle Security and Database Management Certification"
+  ],
+  "soft_skills": [
+    "Analytical Thinking",
+    "Problem-Solving",
+    "Communication Skills",
+    "Attention to Detail",
+    "Team Collaboration"
+  ]
+}
